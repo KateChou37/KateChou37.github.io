@@ -5,7 +5,7 @@
   diytitle: {"enable":true,"leaveTitle":"థ౪థ 不要走！再看看嘛！","backTitle":"ദ്ദി ˉ͈̀꒳ˉ͈́ )✧ 歡迎回來！"},
   LA51: undefined,
   greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好啊👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 狀態不錯~美好的一天加油!","startTime":10,"endTime":10},{"greeting":"11點多啦, 在堅持一下就可以吃飯拉～","startTime":11,"endTime":11},{"greeting":"午安👋, 吃或的美好時間~","startTime":12,"endTime":14},{"greeting":"🌈充實的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19點瞜, 獎勵一頓丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在屬於自己的時間好好放鬆😌~","startTime":20,"endTime":24}]},
-  twikooEnvId: '',
+  twikooEnvId: 'https://kate-blog-comments.vercel.app/',
   commentBarrageConfig:undefined,
   music_page_default: "nav_music",
   root: '/',
@@ -60,7 +60,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2026-01-07 08:27:24',
+  postUpdate: '2026-01-07 09:38:59',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -343,9 +343,9 @@ queueMicrotask(() => {
       // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
       let img = document.querySelector("#workboard .workSituationImg");
       if (img != null) {
-        img.src = "/img/下班icon-01.svg";
-        img.title = "下班了就是繼續進修時間~程式好好玩~";
-        img.alt = "下班了就是繼續進修時間~程式好好玩~";
+        img.src = "";
+        img.title = "";
+        img.alt = "";
       }
 
       currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
